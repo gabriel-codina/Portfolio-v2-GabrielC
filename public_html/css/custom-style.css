@@ -2,13 +2,83 @@ div{
     border-style: solid;
     border-width: 5px;
     padding: 30px;
-    border-color: green;
+    border-color: green;    
+    border: none;
+}
+
+.back1{
+    background-image: url('http://fc09.deviantart.net/fs70/f/2011/116/c/9/animus_wallpaper_by_will_yen-d3ex5z8.png');
+ 
+    
+}
+
+.back2{
+    background-image: url('http://fc06.deviantart.net/fs71/i/2011/259/c/d/animus_2_0_memory_corridor_by_amrasfarassion-d49zfwc.jpg');
+}
+
+.back3{
+    background-image: url('http://images5.alphacoders.com/300/300745.jpg');
 }
 
 .container{
     border-color: blue;
+border: none;
 }
 
 .row{
     border-color: red;
+  border: none;
+}
+
+.AppAcademy{
+    color: black;   
+    text-decoration: activeborder;
+}
+
+li{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.projects_pictur{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    width: 392px;
+        height: 180px;
+}
+
+#htmllogo{
+    height: 300px;
+    width: auto;
+}
+
+#csslogo{
+    height: 300px;
+    width: auto;
+}
+
+#bootlog{
+    height: 300px;
+    width: auto;
+}
+
+
+
+.perk{
+    margin-top: 60px;
+}
+
+.car{
+    width: 550px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.colorcar{
+    background-color: gray;
+}
+
+.write{
+    text-decoration-color: black;
 }

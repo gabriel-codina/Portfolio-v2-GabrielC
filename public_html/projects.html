@@ -8,36 +8,90 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/custom-style.css">
     </head>
-    <body>
+    <body class="back2">
        <div class="container">
+           <!--start of links-->
               <nav>
-                    <ul class="nav nav-tabs" role="tablist">
-  <li><a href="index.html">About Me</a></li>
-  <li class="active"><a href="projects.html">Projects</a></li>
-  <li><a href="technologies.html">Technologies</a></li>
+      <ul class="nav nav-tabs" role="tablist">
+  
+  
+  
+  <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>-About Me</a></li>
+  <li  class="active"><a href="projects.html"><span class="glyphicon glyphicon-picture"></span>-Projects</a></li>
+  <li class="dropdown">
+          <a href="technologies.html" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span>-Technologies <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="technologies.html">HTML</a></li>
+            <li><a href="technologies.html#CSS">CSS</a></li>
+            <li><a href="technologies.html#CSS">BootStrap</a></li>
+          
+          </ul>
+        </li>
+ 
 </ul>
                 </nav>
+           <!--end of links-->
             <div class="row">
-                <p>row</p>
+                <h1>Projects</h1>
                 <div class="col-xs-10">
-                    <p>col-xs-10</p>
+                   
                     <div class="row">
-                        <p>row</p>
-                    <div class="col-xs-3"></div>
-                    <div class="col-xs-9"></div>
+                       
+                        <div class="col-xs-6">
+                            <a href="http://localhost:8383/first%20netbeans%20project/index.html"><img class="img-responsive img-rounded projects_pictur" src="images/first project.png"></a>
+                            <h3>Portfolio</h3>
+                            <p>
+                                This project is my first Portfolio Page that I used <a href="technologies.html">HTML</a> to make. It used a lot of <a href="technologies.html#CSS">CSS</a> but no <a href="technologies.html#CSS">BootStrap</a>.
+                            </p>
+                        </div>
+                        
+                        
+                        <div class="col-xs-6">
+                            <a href="index.html"> <img class="img-responsive img-rounded projects_pictur" src="images/portv2.png"></a>
+                            <h3>Portfolio v2</h3>
+                            <p>
+                                This project is called Portfolio v2. Your on this project right now. This uses <a href="technologies.html#CSS">BootStrap</a> unlike my first Portfolio.
+                            </p>
+                        </div>
+                        
+                        
                 </div> 
+                    
+                    
                 <div class="row">
-                    <p>row</p>
-                    <div class="col-xs-3"></div>
-                    <div class="col-xs-9"></div>
+                   <!--future projects-->
+                    <div class="col-xs-6">
+                        <!--space for future projects-->
+                    </div>
+                    
+                    
+                    <div class="col-xs-6">
+                        <!--space for future projects-->
+                    </div>
+                    
+                    
                 </div>
+                    
+                    
+                    
                 </div>
                 
                 <div class="col-xs-2">
-                    <p>col-xs-2</p>
+                   <!--space to keep my projects closer to the right-->
                 </div>
             </div>
         </div>
-          
+        <!--music-->
+        <audio src="2-03 Candy Shop.mp3" controls>	
+	<embed 
+	src="2-03 Candy Shop.mp3"
+	width="300"
+	height="90"
+	loop="false"
+	autostart="true" />
+</audio>
+        <!--end of music-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
